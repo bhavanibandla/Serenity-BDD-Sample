@@ -1,0 +1,36 @@
+{
+  "server": "hub.lambdatest.com",
+  "user": "YOUR_USERNAME",
+  "key": "YOUR_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "Serenity BDD Sample Parallel Tests"
+  },
+
+  "environments": {
+    "chrome": {
+      "platform": "windows 11",
+      "browserName": "chrome",
+      "version":"latest",
+      "geoLocation":"GB"
+    },
+    "firefox": {
+      "platform": "windows 11",
+      "browserName": "firefox",
+      "version":"latest",
+      "geoLocation":"GB"
+    },
+    "safari": {
+      "platform": "macOS Monterey",
+      "browserName": "safari",
+      "version":"latest",
+      "geoLocation":"GB"
+    },
+    "edge": {
+      "platform": "windows 11",
+      "browserName": "MicrosoftEdge",
+      "version":"latest",
+      "geoLocation":"GB"
+    }
+  }
+}

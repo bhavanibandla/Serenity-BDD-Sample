@@ -1,0 +1,18 @@
+{
+  "server": "hub.lambdatest.com",
+  "user": "YOUR_USERNAME",
+  "key": "YOUR_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "Serenity BDD Sample Single Test"
+  },
+
+  "environments": {
+    "chrome": {
+      "platform": "windows 11",
+      "browserName": "chrome",
+      "version":"latest",
+      "geoLocation":"GB"
+    }
+  }
+}
