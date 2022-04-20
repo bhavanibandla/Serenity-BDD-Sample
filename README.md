@@ -1,2 +1,2 @@
 # Serenity-BDD-Sample
-Sample serenity cucumber BDD framework
+Sample serenity cucumber framework
